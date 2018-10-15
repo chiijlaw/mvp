@@ -3,6 +3,7 @@
 # Logs
 logs
 *.log
+npm-debug.*
 
 # Runtime data
 pids
@@ -33,3 +34,9 @@ bower_components/
 .floobit
 .floo
 .flooignore
+
+#Config files
+config.js
+
+#Expo
+.expo/
