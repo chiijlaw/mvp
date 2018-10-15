@@ -1,6 +1,8 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { Text, View } from "react-native";
 import styles from "../../styles/MainStyles/MainStyle";
+import MainHeader from "./MainHeader";
+import AbilityScore from "./AbilityScore";
 
 export default class Main extends React.Component {
   constructor(props) {
@@ -17,7 +19,8 @@ export default class Main extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Testing stuff!</Text>
+        <MainHeader />
+        <AbilityScore />
       </View>
     );
   }
