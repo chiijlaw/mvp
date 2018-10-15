@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Dnd5eCharacterSheetProject",
-    "description": "This project is really great.",
+    "description": "Simple Character Sheet App for Dnd5e, created in React-Native.",
     "slug": "Dnd5eCharacterSheetProject",
     "privacy": "public",
     "sdkVersion": "30.0.0",
@@ -17,9 +17,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     }
