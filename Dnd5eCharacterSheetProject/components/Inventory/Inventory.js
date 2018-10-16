@@ -6,6 +6,7 @@ import {
   StatusBar,
   Button,
   ListView,
+  FlatList,
   Modal,
   TouchableHighlight,
   Alert
@@ -110,13 +111,18 @@ export default class Inventory extends React.Component {
             />
           </View>
         </View>
-        <Text>Inventory</Text>
-        <ListView
-          dataSource={this.state.dataSource}
-          renderRow={this.renderItem}
-          enableEmptySections={true}
-          style={styles.listview}
-        />
+        <View style={styles.title}>
+          <Text style={styles.textTitle}>Inventory</Text>
+          <Text>Gold : 20</Text>
+        </View>
+        <View style={styles.listContainer}>
+          <ListView
+            dataSource={this.state.dataSource}
+            renderRow={this.renderItem}
+            enableEmptySections={true}
+            style={styles.listview}
+          />
+        </View>
         <Modal
           animationType="slide"
           transparent={false}

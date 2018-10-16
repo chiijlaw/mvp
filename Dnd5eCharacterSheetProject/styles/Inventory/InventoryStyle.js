@@ -5,6 +5,10 @@ export default (InventoryStyles = StyleSheet.create({
     flex: 1,
     backgroundColor: "steelblue"
   },
+  title: {
+    flex: 1,
+    alignSelf: "center"
+  },
   navigationContainer: {
     flexDirection: "row",
     backgroundColor: "lightblue",
@@ -13,7 +17,15 @@ export default (InventoryStyles = StyleSheet.create({
   buttonContainer: {
     flex: 1
   },
-  listview: {
+  listView: {
     flex: 1
+  },
+  listContainer: {
+    flex: 8
+  },
+  textTitle: {
+    flex: 1,
+    fontSize: 18,
+    fontWeight: "bold"
   }
 }));
