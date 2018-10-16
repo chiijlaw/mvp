@@ -10,17 +10,36 @@ export default class AbilityScore extends React.Component {
   }
 
   render() {
+    //Destructure Props
     const {
       ability_score,
       skills,
       saving_throws,
       proficiencyBonus
     } = this.props;
+    //Create specific ability components
     let listAbilities;
     if (ability_score) {
-      listAbilities = Object.keys(ability_score).map(key => (
-        <Ability key={key} ability={key} score={ability_score[key]} />
-      ));
+      listAbilities = ability_score.map(key => {
+        //Check if character has a saving throw for that ability category
+        let save = false;
+        if (saving_throws.includes(key.ability)) {
+          save = true;
+        }
+        //Check if character has skills for that ability category
+        let abilitySkills = skills[key.ability] || [];
+        //Return fully built ability component
+        return (
+          <Ability
+            key={key.ability}
+            ability={key.ability}
+            score={key.score}
+            save={save}
+            skills={abilitySkills}
+            proficiencyBonus={proficiencyBonus}
+          />
+        );
+      });
     }
 
     return (

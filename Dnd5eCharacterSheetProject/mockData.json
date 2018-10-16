@@ -6,15 +6,40 @@
       "character_class": "Wizard",
       "race": "High Elf",
       "exp": 12643,
-      "ability_score": {
-        "Strength": 8,
-        "Dexterity": 10,
-        "Constitution": 10,
-        "Wisdom": 12,
-        "Intelligence": 16,
-        "Charisma": 11
+      "ability_score": [
+        {
+          "ability": "Strength",
+          "score": 8
+        },
+        {
+          "ability": "Dexterity",
+          "score": 10
+        },
+        {
+          "ability": "Constitution",
+          "score": 10
+        },
+        {
+          "ability": "Wisdom",
+          "score": 12
+        },
+        {
+          "ability": "Intelligence",
+          "score": 16
+        },
+        {
+          "ability": "Charisma",
+          "score": 11
+        }
+      ],
+      "skills": {
+        "Strength": [],
+        "Dexterity": ["Acrobatics"],
+        "Constitution": [],
+        "Wisdom": [],
+        "Intelligence": ["Arcana", "History", "Investigation"],
+        "Charisma": []
       },
-      "skills": ["Arcana", "History", "Perception", "Invesitgation"],
       "saving_throws": ["Intelligence", "Wisdom"]
     }
   }

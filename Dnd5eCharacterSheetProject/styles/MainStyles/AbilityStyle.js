@@ -27,7 +27,13 @@ export default (appStyles = StyleSheet.create({
     borderRadius: 10,
     paddingHorizontal: 15
   },
-  skills: {
-    flex: 4
+  skillsContainer: {
+    flex: 3
+  },
+  textSkills: {
+    fontSize: 12
+  },
+  save: {
+    flex: 1
   }
 }));
