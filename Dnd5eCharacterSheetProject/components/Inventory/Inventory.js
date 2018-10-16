@@ -6,7 +6,6 @@ import {
   StatusBar,
   Button,
   ListView,
-  FlatList,
   Modal,
   TouchableHighlight,
   Alert
@@ -14,7 +13,7 @@ import {
 import firebaseApp from "../../database";
 import styles from "../../styles/Inventory/InventoryStyle";
 import ListItem from "./ListItem";
-import ActionButton from "./ActionButton";
+import ActionButton from "../ActionButton";
 
 export default class Inventory extends React.Component {
   //Get rid of Navigation header

@@ -5,6 +5,10 @@ export default (SkillsAndSpellsStyles = StyleSheet.create({
     flex: 1,
     backgroundColor: "green"
   },
+  title: {
+    flex: 1,
+    alignSelf: "center"
+  },
   navigationContainer: {
     flexDirection: "row",
     backgroundColor: "lightblue",
@@ -12,5 +16,16 @@ export default (SkillsAndSpellsStyles = StyleSheet.create({
   },
   buttonContainer: {
     flex: 1
+  },
+  listView: {
+    flex: 1
+  },
+  listContainer: {
+    flex: 8
+  },
+  textTitle: {
+    flex: 1,
+    fontSize: 18,
+    fontWeight: "bold"
   }
 }));

@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, TouchableHighlight } from "react-native";
-import styles from "../../styles/Inventory/ActionButtonStyle";
+import styles from "../styles/ActionButtonStyle";
 
 class ActionButton extends React.Component {
   render() {
