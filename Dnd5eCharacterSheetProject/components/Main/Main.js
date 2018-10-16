@@ -56,6 +56,13 @@ export default class Main extends React.Component {
         <View style={styles.navigationContainer}>
           <View style={styles.buttonContainer}>
             <Button
+              title="Character"
+              color="lightblue"
+              onPress={() => this.props.navigation.navigate("Main")}
+            />
+          </View>
+          <View style={styles.buttonContainer}>
+            <Button
               title="Skills/Spells"
               color="green"
               onPress={() => this.props.navigation.navigate("SkillsAndSpells")}

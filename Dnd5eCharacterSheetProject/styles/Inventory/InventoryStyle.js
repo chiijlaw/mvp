@@ -1,9 +1,9 @@
 import { StyleSheet } from "react-native";
 
-export default (MainStyles = StyleSheet.create({
+export default (IventoryStyles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "aliceblue"
+    backgroundColor: "steelblue"
   },
   navigationContainer: {
     flexDirection: "row",

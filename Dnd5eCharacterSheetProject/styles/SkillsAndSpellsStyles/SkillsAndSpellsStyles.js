@@ -1,9 +1,9 @@
 import { StyleSheet } from "react-native";
 
-export default (MainStyles = StyleSheet.create({
+export default (SkillsAndSpellsStyles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "aliceblue"
+    backgroundColor: "green"
   },
   navigationContainer: {
     flexDirection: "row",

@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default (appStyles = StyleSheet.create({
+export default (AbilityScoreStyles = StyleSheet.create({
   container: {
     flex: 8,
     backgroundColor: "lightblue",
