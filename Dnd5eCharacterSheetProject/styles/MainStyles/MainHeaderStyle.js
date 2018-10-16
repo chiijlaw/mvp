@@ -16,7 +16,8 @@ export default (appStyles = StyleSheet.create({
   },
   subContainer: {
     flex: 1,
-    flexDirection: "row"
+    flexDirection: "row",
+    paddingBottom: 10
   },
   block: {
     flex: 1,

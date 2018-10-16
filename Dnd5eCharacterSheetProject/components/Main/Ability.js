@@ -50,7 +50,8 @@ export default (Ability = props => {
       </View>
       <View style={styles.skillsContainer}>{skillList}</View>
       <View style={styles.save}>
-        <Text>Saving Throw: {saveModifier}</Text>
+        <Text style={styles.textSave}>{saveModifier}</Text>
+        <Text>Save</Text>
       </View>
     </View>
   );

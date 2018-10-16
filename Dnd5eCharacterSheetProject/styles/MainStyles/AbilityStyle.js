@@ -34,6 +34,11 @@ export default (appStyles = StyleSheet.create({
     fontSize: 12
   },
   save: {
-    flex: 1
+    flex: 1,
+    flexDirection: "column",
+    alignItems: "center"
+  },
+  textSave: {
+    fontSize: 18
   }
 }));
