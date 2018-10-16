@@ -1,0 +1,21 @@
+{
+  "characters": {
+    "Aria": {
+      "character_name": "Aria",
+      "level": 1,
+      "character_class": "Wizard",
+      "race": "High Elf",
+      "exp": 12643,
+      "ability_score": {
+        "Strength": 8,
+        "Dexterity": 10,
+        "Constitution": 10,
+        "Wisdom": 12,
+        "Intelligence": 16,
+        "Charisma": 11
+      },
+      "skills": ["Arcana", "History", "Perception", "Invesitgation"],
+      "saving_throws": ["Intelligence", "Wisdom"]
+    }
+  }
+}

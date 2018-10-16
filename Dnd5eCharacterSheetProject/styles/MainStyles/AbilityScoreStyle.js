@@ -5,6 +5,12 @@ export default (appStyles = StyleSheet.create({
     flex: 8,
     backgroundColor: "lightblue",
     alignItems: "center"
-    // justifyContent: "center"
+  },
+  proficiency: {
+    alignItems: "center"
+  },
+  textProficiency: {
+    fontSize: 16,
+    fontWeight: "bold"
   }
 }));
