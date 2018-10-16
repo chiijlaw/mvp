@@ -11,8 +11,12 @@ export default class SkillsAndSpells extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
+    this.skillsAndSpellsRef = firebaseApp
+      .database()
+      .ref(`/characters/Aria/SkillsAndSpells`);
   }
 
+  //Hide statusbar
   render() {
     return (
       <View style={styles.container}>

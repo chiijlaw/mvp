@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default (IventoryStyles = StyleSheet.create({
+export default (InventoryStyles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "steelblue"
@@ -11,6 +11,9 @@ export default (IventoryStyles = StyleSheet.create({
     alignItems: "stretch"
   },
   buttonContainer: {
+    flex: 1
+  },
+  listview: {
     flex: 1
   }
 }));

@@ -18,9 +18,9 @@ export default class AbilityScore extends React.Component {
       proficiencyBonus
     } = this.props;
     //Create specific ability components
-    let listAbilities;
+    let renderListAbilities;
     if (ability_score) {
-      listAbilities = ability_score.map(key => {
+      renderListAbilities = ability_score.map(key => {
         //Check if character has a saving throw for that ability category
         let save = false;
         if (saving_throws.includes(key.ability)) {
@@ -44,7 +44,7 @@ export default class AbilityScore extends React.Component {
 
     return (
       <View style={styles.container}>
-        {listAbilities}
+        {renderListAbilities}
         <View style={styles.proficiency}>
           <Text>Proficiency Bonus</Text>
           <Text style={styles.textProficiency}>{proficiencyBonus}</Text>

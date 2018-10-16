@@ -22,7 +22,7 @@ export default (Ability = props => {
     saveModifier = saveModifier + proficiencyBonus;
   }
   //List out skills for the given ability
-  const skillList = allSkills[ability].map(skill => {
+  const renderSkill = allSkills[ability].map(skill => {
     let skillModifier = modifier;
     if (skills.includes(skill)) {
       skillModifier = skillModifier + proficiencyBonus;
@@ -48,7 +48,7 @@ export default (Ability = props => {
           <Text>{ability}</Text>
         </View>
       </View>
-      <View style={styles.skillsContainer}>{skillList}</View>
+      <View style={styles.skillsContainer}>{renderSkill}</View>
       <View style={styles.save}>
         <Text style={styles.textSave}>{saveModifier}</Text>
         <Text>Save</Text>
