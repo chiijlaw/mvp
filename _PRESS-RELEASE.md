@@ -20,13 +20,10 @@ Once the project moves into development, the press release can be used as a touc
 
 > Name the product in a way the reader (i.e. your target customers) will understand.
 
-## Sub-Heading
-
-> Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+## Adventurers rejoice! All your important character information will now be stored right on your phone!
 
 ## Summary
-
-> Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+Your character's ability scores, skills, spells and inventory will all be stored together in one convenient place. Your phone! You can add mulitple characters, update your characters as they level up, or acquire more sweet sweet loot. Be ready to adventure at anytime, and anyplace!
 
 ## Problem
 
