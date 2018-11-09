@@ -23,8 +23,8 @@ Once the project moves into development, the press release can be used as a touc
 ## Adventurers rejoice! All your important character information will now be stored right on your phone!
 
 ## Summary
-Your character's ability scores, skills, spells and inventory will all be stored together in one convenient place. Your phone! You can add mulitple characters, update your characters as they level up, or acquire more sweet sweet loot. Be ready to adventure at anytime, and anyplace!
-
+Your character's ability scores, skills, spells and inventory will all be stored together in one convenient place. Your phone! You can add mulitple characters, update your characters as they level up, track your loot. Be ready to adventure at anytime, and anyplace!
+<!--
 ## Problem
 
 > Describe the problem your product solves.
@@ -48,3 +48,4 @@ Your character's ability scores, skills, spells and inventory will all be stored
 ## Closing and Call to Action
 
 > Wrap it up and give pointers where the reader should go next.
+-->
