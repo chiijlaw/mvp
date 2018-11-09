@@ -18,8 +18,6 @@ Once the project moves into development, the press release can be used as a touc
 
 ## Dungeon's and Dragons 5e Character Sheet
 
-> Name the product in a way the reader (i.e. your target customers) will understand.
-
 ## Adventurers rejoice! All your important character information will now be stored right on your phone!
 
 ## Summary
