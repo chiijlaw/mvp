@@ -33,7 +33,7 @@ Your character's ability scores, skills, spells and inventory will all be stored
 
 ## Quote from You
 
-> A quote from a spokesperson in your company.
+> A quote from a spokesperson in your company. 
 
 ## How to Get Started
 
