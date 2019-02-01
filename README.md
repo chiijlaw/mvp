@@ -25,7 +25,7 @@ Your character's ability scores, skills, spells and inventory will all be stored
 <!--
 ## Problem
 
-> Describe the problem your product solves.
+> Describe the problem your product solves. 
 
 ## Solution
 
