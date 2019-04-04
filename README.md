@@ -22,6 +22,9 @@ Adventurers rejoice! All your important character information will now be stored
 
 ## Summary
 Your character's ability scores, skills, spells and inventory will all be stored together in one convenient place. Your phone! You can add mulitple characters, update your characters as they level up, track your loot. Be ready to adventure at anytime, and anyplace!
+
+## Example Video
+https://www.youtube.com/watch?v=efi1FIsYqNw&feature=youtu.be
 <!--
 ## Problem
 
